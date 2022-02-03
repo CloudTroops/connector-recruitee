@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="updateCandidateInput" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="parameters" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="id">32895812</value>
+      </record>
+      <record name="requestHeaders" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="Authorization">cx.BearerToken</value>
+        <value name="Content-Type">application/json</value>
+      </record>
+      <record name="requestBody" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="candidate" javaclass="com.wm.data.ISMemDataImpl">
+          <record name="candidate" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="name">john smith</value>
+            <array name="emails" type="value" depth="1">
+              <value>john@gmail.com</value>
+            </array>
+            <array name="phones" type="value" depth="1">
+              <value>1234568</value>
+            </array>
+            <value name="cover_letter">true</value>
+          </record>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>

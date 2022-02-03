@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="createOfferInput" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="requestHeaders" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="Authorization">cx.BearerToken</value>
+        <value name="Content-Type">application/json</value>
+      </record>
+      <record name="requestBody" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="createOffersReq" javaclass="com.wm.data.ISMemDataImpl">
+          <record name="offer" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="title">Devops Engg</value>
+            <value name="department">Product</value>
+            <value name="kind">job</value>
+            <value name="description">Devops life cycle</value>
+            <value name="requirements">Jenkins, GIT, BB exp</value>
+            <value name="postal_code">560075</value>
+            <value name="city">Bangalore</value>
+            <value name="state_code">2345</value>
+            <value name="country_code">NL</value>
+            <value name="remote">true</value>
+          </record>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>

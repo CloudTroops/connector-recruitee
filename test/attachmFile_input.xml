@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="attachFileInput" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="requestHeaders" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="Authorization">cx.BearerToken</value>
+        <value name="Content-Type">application/json</value>
+      </record>
+      <record name="requestBody" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="attachFileReq" javaclass="com.wm.data.ISMemDataImpl">
+          <record name="attachment" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="remote_file_url">https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*A5trA-8VGK7a_UGvtIylpw.png&amp;imgrefurl=https%3A%2F%2Fmedium.com%2Frecruitee-recruits&amp;tbnid=paGg3iaKzFXuoM&amp;vet=12ahUKEwiqwq3a2OH1AhXdk9gFHQGhCf4QMygEegUIARDCAQ..i&amp;docid=vCBRFoLw0Fe-kM&amp;w=1200&amp;h=820&amp;itg=1&amp;q=recruitee&amp;ved=2ahUKEwiqwq3a2OH1AhXdk9gFHQGhCf4QMygEegUIARDCAQ</value>
+            <value name="offer_id">878342</value>
+          </record>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <record name="createCandidateInput" javaclass="com.wm.data.ISMemDataImpl">
+      <record name="requestHeaders" javaclass="com.wm.data.ISMemDataImpl">
+        <value name="Authorization">cx.BearerToken</value>
+        <value name="Content-Type">application/json</value>
+      </record>
+      <record name="requestBody" javaclass="com.wm.data.ISMemDataImpl">
+        <record name="createCandidateReq" javaclass="com.wm.data.ISMemDataImpl">
+          <record name="candidate" javaclass="com.wm.data.ISMemDataImpl">
+            <value name="name">Steve Smith</value>
+            <value name="remote_cv_url">https://www.facebook.com/johnexamplecom/</value>
+            <array name="emails" type="value" depth="1">
+              <value>steve@gmail.com</value>
+            </array>
+            <array name="phones" type="value" depth="1">
+              <value>12323346</value>
+            </array>
+            <array name="social_links" type="value" depth="1">
+              <value>https://www.facebook.com/johnexamplecom</value>
+            </array>
+            <array name="links" type="value" depth="1">
+              <value>https://www.example.com/</value>
+            </array>
+            <value name="cover_letter">Example cover letter</value>
+          </record>
+          <array name="offers" type="value" depth="1">
+            <value>487967</value>
+          </array>
+        </record>
+      </record>
+    </record>
+  </record>
+</IDataXMLCoder>
